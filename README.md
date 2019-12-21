@@ -26,23 +26,24 @@ An Android app that allows Request-to-pay functionality.
 
 ScotiaTracker closely aligns with the user interface of the official Scotiabank app - modern, and intuitive to use. It simplifies the user experience with the app by distinguishing the actions required for each persona, and prioritizing the most needed features for the users. By implementing the Request-to-Pay functionality, a solution to the proposed business problem, the operational efficieny is also greatly improved.
 
-Driver
-- notify delivery 
-- notify arrival
+### Features
 
-Supplier 
-- no required actions
+#### Driver
+- Notify delivery 
+- Notify arrival
 
-Customer
-- confirm payment
+#### Supplier 
+- Observes the payment process
 
-All Users
-- track package
-- view invoice
-- see invoice status (Pending, on the way, arrived, payment processed)
-- search invoice by its id, the driver, supplier, or customer name
-- sort invoices by its status or date (oldest)
-- notification and text system to alert relevant personas of the invoice's new status
+#### Customer
+- Confirm Payment
+
+#### All Users
+- **Track** delivery
+- View **invoice information** as well it's status (Pending, on the way, arrived, payment processed)
+- The ability to **search through invoices** by id, the driver, supplier, or customer name
+- **Sort invoices** by its status or date
+- **Notification** and text system to alert relevant personas of the invoice's new status
 
 ## ScotiaTracker Mobile App
 SCREEN RECORDING HERE
@@ -52,3 +53,16 @@ SCREEN RECORDING HERE
 
 
 ##### Tech Stack Deep-Dive
+
+###### Front-End
+* Java
+    * Design Patterns used:
+        * Dependency Inversion: Interactions between MVP layers
+        * Facade: Interactions with model were handled through a facade to simplify communcations
+        * Strategy: Invoice sorting & searching strategies are plug & play (newest/oldest, by name etc... timsort & quicksort). Following Open/Closed principle.
+* Retrofit
+
+###### Backend
+* REST api hosted on Heroku
+* PostgreSQL
+* [firebase information]
