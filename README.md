@@ -1,6 +1,3 @@
-# Scotiabank Scotiatracker 
-## A Request-To-Pay Mobile solution for Digital Cash Business Transactions
-
 ### Developed by C-VARS: 
 ### Callum Cassidy-Nolan, Vladimir Dyagilev, Alexander Yang, Raag Kashyap, Sophie Nam
 
