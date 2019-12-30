@@ -46,7 +46,9 @@ ScotiaTracker closely aligns with the user interface of the official Scotiabank 
 - **Notification** and text system to alert relevant personas of the invoice's new status
 
 ## ScotiaTracker Mobile App
-SCREEN RECORDING HERE
+![](https://media.giphy.com/media/Y3vyP1gf5R6ESHasyW/giphy.gif){:.center}
+
+
 
 #### Future Applications
 
