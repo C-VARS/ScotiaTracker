@@ -68,6 +68,6 @@ ScotiaTracker closely aligns with the user interface of the official Scotiabank 
 * Retrofit
 
 ###### Backend
-* REST api hosted on Heroku
+* REST API hosted on Heroku
 * PostgreSQL
 * [firebase information]
