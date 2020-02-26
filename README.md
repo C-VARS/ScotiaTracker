@@ -3,7 +3,7 @@
 
 
 ### Overview
-ScotiaTracker is the minimum viable product solution to a specific payment case between large supplier corporations small business owners. It implements the Request-to-pay functionality to allow for direct deposit transactions, eliminating the physical risk as well as friction caused by using cheques and cash. 
+ScotiaTracker is the MVP proof-of-concept solution to a specific business problem between large supplier corporations small business owners. It implements the Request-to-pay functionality to allow for direct deposit transactions, eliminating the physical risk as well as friction caused by using cheques and cash. 
 
 Placing emphasis on user experience and operational efficiency, ScotiaTracker is extensible to future applications of modern digital payment technology.
 
