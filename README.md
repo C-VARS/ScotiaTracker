@@ -51,12 +51,6 @@ ScotiaTracker closely aligns with the user interface of the official Scotiabank 
 </p>
 
 
-
-
-#### Future Applications
-
-
-
 ##### Tech Stack Deep-Dive
 
 ###### Front-End
@@ -72,3 +66,6 @@ ScotiaTracker closely aligns with the user interface of the official Scotiabank 
 * PostgreSQL as database
 * Incorporated Google Firebase functionalities for push notifications
 * Used Google Map API for location display
+
+Check the following link to view the codebase:
+https://github.com/C-VARS
